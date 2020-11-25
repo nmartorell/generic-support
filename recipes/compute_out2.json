@@ -3,7 +3,10 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "customConfig": {},
+    "customConfig": {
+      "date_picker": "2020-11-03T05:00:00.000Z",
+      "date_string": "2020-12220-2"
+    },
     "containerSelection": {
       "containerMode": "INHERIT"
     }
@@ -36,11 +39,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1606330118313
+    "lastModifiedOn": 1606330126945
   },
   "creationTag": {
     "versionNumber": 0,
