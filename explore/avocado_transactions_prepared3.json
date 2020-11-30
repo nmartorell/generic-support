@@ -181,7 +181,7 @@
         "hexbinRadiusMode": "NUM_HEXAGONS",
         "chartHeight": 200,
         "singleXAxis": true,
-        "multiTooltips": true,
+        "multiTooltips": false,
         "animationFrameDuration": 3000,
         "animationRepeat": true,
         "colorOptions": {
