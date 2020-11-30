@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1606750792280
+    "lastModifiedOn": 1606750804299
   },
   "creationTag": {
     "versionNumber": 0,
@@ -61,6 +61,10 @@
       {
         "name": "Date",
         "type": "string"
+      },
+      {
+        "name": "Date_parsed",
+        "type": "date"
       },
       {
         "name": "AveragePrice",
