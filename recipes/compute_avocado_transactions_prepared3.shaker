@@ -26,8 +26,31 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateParser",
+      "params": {
+        "outCol": "Date_parsed",
+        "formats": [
+          "yyyy-MM-dd"
+        ],
+        "columns": [
+          "Date"
+        ],
+        "timezone_id": "UTC",
+        "appliesTo": "SINGLE_COLUMN",
+        "lang": "auto"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +58,18 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "XLargeBags": 100,
+    "year": 100,
+    "Date_parsed": 183,
+    "TotalVolume": 127,
+    "SmallBags": 113,
+    "type": 100,
+    "region": 148,
+    "LargeBags": 113,
+    "Date": 100,
+    "AveragePrice": 105
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
