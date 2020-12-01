@@ -72,11 +72,11 @@
     ]
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1606847353005
+    "lastModifiedOn": 1606847361262
   },
   "creationTag": {
     "versionNumber": 0,
@@ -103,10 +103,6 @@
   "schema": {
     "columns": [
       {
-        "name": "Date",
-        "type": "string"
-      },
-      {
         "name": "AveragePrice",
         "type": "string"
       },
@@ -124,10 +120,6 @@
       },
       {
         "name": "XLargeBags",
-        "type": "string"
-      },
-      {
-        "name": "type",
         "type": "string"
       },
       {
