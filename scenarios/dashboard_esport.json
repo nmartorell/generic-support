@@ -5,11 +5,11 @@
   "name": "dashboard esport",
   "active": false,
   "versionTag": {
-    "versionNumber": 18,
+    "versionNumber": 19,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1606837836492
+    "lastModifiedOn": 1606837881572
   },
   "checklists": {
     "checklists": []
@@ -34,9 +34,60 @@
           "sendAsHTML": false,
           "attachments": [
             {
-              "type": "FOLDER_ITEM",
+              "type": "DATASET",
               "params": {
-                "folderId": "a6CFTSVj"
+                "exportParams": {
+                  "destinationType": "DOWNLOAD",
+                  "destinationDatasetProjectKey": "GENERICSUPPORT",
+                  "overwriteDestinationDataset": false,
+                  "selection": {
+                    "samplingMethod": "FULL",
+                    "partitionSelectionMethod": "ALL",
+                    "targetRatio": 0.02,
+                    "maxRecords": 100000,
+                    "selectedPartitions": [],
+                    "ordering": {
+                      "enabled": false,
+                      "rules": []
+                    }
+                  },
+                  "advancedMode": false,
+                  "originatingOptionId": "tsv-excel-header",
+                  "format": {
+                    "type": "csv",
+                    "params": {
+                      "style": "excel",
+                      "charset": "utf8",
+                      "separator": ",",
+                      "quoteChar": "\"",
+                      "escapeChar": "\\",
+                      "dateSerializationFormat": "ISO",
+                      "arrayMapFormat": "json",
+                      "hiveSeparators": [
+                        "\u0002",
+                        "\u0003",
+                        "\u0004",
+                        "\u0005",
+                        "\u0006",
+                        "\u0007",
+                        "\b"
+                      ],
+                      "skipRowsBeforeHeader": 0,
+                      "parseHeaderRow": true,
+                      "skipRowsAfterHeader": 0,
+                      "probableNumberOfRecords": 0,
+                      "normalizeBooleans": false,
+                      "normalizeDoubles": true,
+                      "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+                      "readMissingColumnsBehavior": "DISCARD_SILENT",
+                      "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+                      "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+                      "fileReadFailureBehavior": "FAIL",
+                      "compress": ""
+                    }
+                  }
+                },
+                "attachedDataset": "avocado_transactions"
               }
             }
           ],
