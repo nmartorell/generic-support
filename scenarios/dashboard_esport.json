@@ -5,11 +5,11 @@
   "name": "dashboard esport",
   "active": false,
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1606837399750
+    "lastModifiedOn": 1606837748036
   },
   "checklists": {
     "checklists": []
@@ -76,7 +76,7 @@
         "id": "kill_scenario_null.dashboard_esport",
         "type": "kill_scenario",
         "name": "Step #2",
-        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionType": "DISABLED",
         "runConditionStatuses": [
           "SUCCESS",
           "WARNING"
@@ -87,6 +87,27 @@
         "maxRetriesOnFail": 0,
         "params": {
           "scenarioId": "dashboard_esport",
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "custom_python_YYtD4LB3X98KDQ957PSchg",
+        "type": "custom_python",
+        "name": "Step #3",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "script": "import dataiku\n\nclient \u003d dataiku.api_client()\nproject \u003d client.get_project(dataiku.default_project_key())\nscenario \u003d project.get_scenario(\"\")",
+          "envSelection": {
+            "envMode": "INHERIT"
+          },
           "proceedOnFailure": false
         }
       }
