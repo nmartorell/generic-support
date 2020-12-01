@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1606848824346
+    "lastModifiedOn": 1606848864991
   },
   "creationTag": {
     "versionNumber": 0,
@@ -61,6 +61,10 @@
       {
         "name": "region",
         "type": "string"
+      },
+      {
+        "name": "Date_parsed_min",
+        "type": "date"
       },
       {
         "name": "count",
