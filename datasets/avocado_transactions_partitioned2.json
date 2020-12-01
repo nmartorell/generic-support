@@ -72,11 +72,11 @@
     ]
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1606847640965
+    "lastModifiedOn": 1606847658288
   },
   "creationTag": {
     "versionNumber": 0,
@@ -102,10 +102,6 @@
   },
   "schema": {
     "columns": [
-      {
-        "name": "Date",
-        "type": "string"
-      },
       {
         "name": "AveragePrice",
         "type": "string"
