@@ -5,11 +5,11 @@
   "name": "dashboard esport",
   "active": false,
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1606836908599
+    "lastModifiedOn": 1606837241624
   },
   "checklists": {
     "checklists": []
@@ -60,7 +60,7 @@
         "id": "create_dashboard_export_D2SVAiP",
         "type": "create_dashboard_export",
         "name": "Step #1",
-        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionType": "DISABLED",
         "runConditionStatuses": [
           "SUCCESS",
           "WARNING"
@@ -79,6 +79,24 @@
             "height": 1358
           },
           "folderSmartId": "a6CFTSVj",
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "kill_scenario_null.dashboard_esport",
+        "type": "kill_scenario",
+        "name": "Step #2",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "scenarioId": "dashboard_esport",
           "proceedOnFailure": false
         }
       }
