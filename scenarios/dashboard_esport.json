@@ -5,11 +5,11 @@
   "name": "dashboard esport",
   "active": false,
   "versionTag": {
-    "versionNumber": 17,
+    "versionNumber": 18,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1606837796844
+    "lastModifiedOn": 1606837836492
   },
   "checklists": {
     "checklists": []
@@ -34,16 +34,9 @@
           "sendAsHTML": false,
           "attachments": [
             {
-              "type": "DASHBOARD_EXPORT",
+              "type": "FOLDER_ITEM",
               "params": {
-                "exportFormat": {
-                  "paperSize": "A4",
-                  "orientation": "LANDSCAPE",
-                  "fileType": "PDF",
-                  "width": 1920,
-                  "height": 1358
-                },
-                "dashboardId": "D2SVAiP"
+                "folderId": "a6CFTSVj"
               }
             }
           ],
