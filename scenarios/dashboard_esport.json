@@ -5,11 +5,11 @@
   "name": "dashboard esport",
   "active": false,
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1606837365363
+    "lastModifiedOn": 1606837399284
   },
   "checklists": {
     "checklists": []
@@ -32,21 +32,7 @@
           "sender": "bob@dataiku.com",
           "recipient": "ned.martorell@dataiku.com",
           "sendAsHTML": false,
-          "attachments": [
-            {
-              "type": "DASHBOARD_EXPORT",
-              "params": {
-                "exportFormat": {
-                  "paperSize": "A4",
-                  "orientation": "LANDSCAPE",
-                  "fileType": "PDF",
-                  "width": 1920,
-                  "height": 1358
-                },
-                "dashboardId": "D2SVAiP"
-              }
-            }
-          ],
+          "attachments": [],
           "messageSource": "TEMPLATE_FILE",
           "templateFormat": "FREEMARKER",
           "templateName": "default.ftl"
