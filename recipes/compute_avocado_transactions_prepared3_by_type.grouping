@@ -210,7 +210,12 @@
       "readParams": {
         "mode": "AUTO",
         "autoModeRepartitionInto": 10,
-        "map": {}
+        "map": {
+          "avocado_transactions_prepared3": {
+            "cache": false,
+            "repartition": 10
+          }
+        }
       },
       "overwriteOutputSchema": false,
       "executionEngine": "SPARK_SUBMIT",
@@ -220,6 +225,7 @@
       }
     }
   },
+  "engineType": "SPARK",
   "enlargeYourBits": true,
   "outputColumnNameOverrides": {},
   "computedColumns": [],
