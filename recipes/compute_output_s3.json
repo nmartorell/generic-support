@@ -33,17 +33,17 @@
       "items": [
         {
           "ref": "output_s3",
-          "appendMode": false
+          "appendMode": true
         }
       ]
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607105986777
+    "lastModifiedOn": 1607105997738
   },
   "creationTag": {
     "versionNumber": 0,
