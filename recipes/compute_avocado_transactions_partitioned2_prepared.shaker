@@ -26,7 +26,10 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -35,7 +38,15 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "XLargeBags": 100,
+    "year": 100,
+    "TotalVolume": 127,
+    "SmallBags": 113,
+    "region": 148,
+    "LargeBags": 113,
+    "AveragePrice": 105
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
