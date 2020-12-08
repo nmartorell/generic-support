@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607465375340
+    "lastModifiedOn": 1607465375462
   },
   "creationTag": {
     "versionNumber": 0,
@@ -73,9 +73,19 @@
   },
   "tags": [],
   "params": {
-    "uploadBoxId": "7fc50302fa10b151da0c39e30fea6e3e6afb46bdbe4a144bb0524674d1a8427c",
-    "uploadConnection": "filesystem_managed",
     "uploadFSProviderType": "Filesystem",
+    "uploadedConfig": {
+      "connection": "filesystem_managed",
+      "path": "/uploads/${projectKey}/avocado_transactions_1",
+      "notReadyIfEmpty": false,
+      "filesSelectionRules": {
+        "mode": "ALL",
+        "excludeRules": [],
+        "includeRules": [],
+        "explicitFiles": []
+      }
+    },
+    "connection": "filesystem_managed",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
