@@ -3,6 +3,8 @@ import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 
+
+
 # Read recipe inputs
 avocado_transactions_partitioned2_prepared = dataiku.Dataset("avocado_transactions_partitioned2_prepared")
 avocado_transactions_partitioned2_prepared_df = avocado_transactions_partitioned2_prepared.get_dataframe()
