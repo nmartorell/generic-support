@@ -8,7 +8,8 @@
     "/python": {
       "remote": "git@github.com:nmartorell/big-file.git",
       "checkout": "",
-      "remotePath": ""
+      "remotePath": "",
+      "lastHash": "d3bc07a3ba4c43f2644dc862abced138aa8819e2"
     }
   },
   "pythonPath": [
