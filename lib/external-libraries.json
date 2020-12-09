@@ -1,7 +1,14 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "/": {
+      "remote": "git@github.com:nmartorell/big-file.git",
+      "checkout": "",
+      "remotePath": ""
+    }
+  },
   "pythonPath": [
-    "python"
+    "python",
+    "/"
   ],
   "rsrcPath": [
     "R"
