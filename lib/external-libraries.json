@@ -4,11 +4,17 @@
       "remote": "git@github.com:nmartorell/big-file.git",
       "checkout": "",
       "remotePath": ""
+    },
+    "/python": {
+      "remote": "git@github.com:nmartorell/big-file.git",
+      "checkout": "",
+      "remotePath": ""
     }
   },
   "pythonPath": [
     "python",
-    "/"
+    "/",
+    "/python"
   ],
   "rsrcPath": [
     "R"
